@@ -1,0 +1,15 @@
+database:
+  host: localhost
+  port: 5432
+  database: advpro
+  user: postgres
+  password: 12345678
+
+api:
+  base_url: https://api.restful-api.dev
+  endpoint: /objects
+
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: logs/data_importer.log

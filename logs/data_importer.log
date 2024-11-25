@@ -1,0 +1,28 @@
+2024-11-25 16:07:45,037 - data_importer.logger - INFO - Starting data import process
+2024-11-25 16:07:45,099 - data_importer.logger - INFO - Table created or already exists
+2024-11-25 16:07:45,100 - data_importer.logger - INFO - Fetching data from https://api.restful-api.dev/objects
+2024-11-25 16:07:45,919 - data_importer.logger - INFO - Successfully fetched 13 phones
+2024-11-25 16:07:46,014 - data_importer.logger - ERROR - Error inserting phone 1: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2024-11-25 16:07:46,014 - data_importer.logger - ERROR - Error during data import: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2024-11-25 17:37:00,689 - data_importer.logger - INFO - Starting data import process
+2024-11-25 17:37:00,730 - data_importer.logger - INFO - Table dropped if existed
+2024-11-25 17:37:00,783 - data_importer.logger - INFO - Table created or already exists
+2024-11-25 17:37:00,785 - data_importer.logger - INFO - Fetching data from https://api.restful-api.dev/objects
+2024-11-25 17:37:01,328 - data_importer.logger - INFO - Successfully fetched 13 phones
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 1
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 2
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 3
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 4
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 5
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 6
+2024-11-25 17:37:01,429 - data_importer.logger - INFO - Inserted/Updated phone with ID: 7
+2024-11-25 17:37:01,437 - data_importer.logger - INFO - Inserted/Updated phone with ID: 8
+2024-11-25 17:37:01,437 - data_importer.logger - INFO - Inserted/Updated phone with ID: 9
+2024-11-25 17:37:01,438 - data_importer.logger - INFO - Inserted/Updated phone with ID: 10
+2024-11-25 17:37:01,438 - data_importer.logger - INFO - Inserted/Updated phone with ID: 11
+2024-11-25 17:37:01,438 - data_importer.logger - INFO - Inserted/Updated phone with ID: 12
+2024-11-25 17:37:01,441 - data_importer.logger - INFO - Inserted/Updated phone with ID: 13
+2024-11-25 17:37:01,441 - data_importer.logger - INFO - Successfully inserted 13 phones
+2024-11-25 17:37:01,444 - data_importer.logger - INFO - Data import process completed successfully
